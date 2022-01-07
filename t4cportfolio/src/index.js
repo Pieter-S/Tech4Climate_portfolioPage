@@ -7,7 +7,7 @@ import './index.css';
 function tick() {
   const element = (
     <div className="row">
-      <h1 className="col-md-8">Hello, world!</h1>
+      <h1 className="col-md-8">React: Hello, world!</h1>
       {/* <h2 className="col-md-4">It is {new Date().toLocaleTimeString()}.</h2> */}
     </div>
   );
