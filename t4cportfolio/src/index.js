@@ -1,20 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
+import React from 'react'
 import './index.css';
-// import './components/Test';
+import App from "./App";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    Routes
+  } from "react-router-dom";
 
-
-function tick() {
-  const element = (
-    <div className="row">
-      <h1 className="col-md-8">React: Hello, world!</h1>
-      {/* <h2 className="col-md-4">It is {new Date().toLocaleTimeString()}.</h2> */}
-    </div>
-  );
 
 ReactDOM.render(
-element,
-    document.getElementById('root')
-  );
-}
-setInterval(tick, 1000);
+    
+<Routes>
+<App />
+</Routes>,
+ document.getElementById('root'));
