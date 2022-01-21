@@ -20,7 +20,7 @@ You should now be ready. You can test your installtion by running the command "n
 
 This launches a development build and should open a windows with the build in your browser.
 
-## usage
+## Usage
 To stop the development build press "control + c" and enter "y".
 
 To create a deploiable build enter command: "npm run build".
@@ -29,3 +29,6 @@ To create a deploiable build enter command: "npm run build".
 
 This repo is not finished, not optimised and has bugs.
 
+If you run a build and read React Error on the page than React probably can't find your target DOM.
+
+Try adding id"root" to the opening tag of the element you want React to alter.
