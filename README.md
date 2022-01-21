@@ -15,7 +15,9 @@ If you would like to contribute please contact me first by email: pieterwegwerp@
 
 3. open a terminal and change directory to t4cportfolio
 enter command "npm install". 
+
 You should now be ready. You can test your installtion by running the command "npm start"
+
 This launches a development build and should open a windows with the build in your browser.
 
 ## usage
