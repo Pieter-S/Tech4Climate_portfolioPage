@@ -23,7 +23,7 @@ To stop the development build press "control + c" and enter "y".
 
 To create a deploiable build enter command: "npm run build".
 
-##Warning
+## Warning
 
-This repo is not finished and is not optimised and has bugs.
+This repo is not finished, not optimised and has bugs.
 
